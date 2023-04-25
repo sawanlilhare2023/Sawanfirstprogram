@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Fabbonacci {
 
+	private static Scanner sc;
 	public static void main(String[] args) {
-		int n1,n2,n3, count;
-		Scanner sc = new Scanner(System.in);
+		int n1,n2,n3;
+		sc = new Scanner(System.in);
 		System.out.println("Enter the number upto which fabbonacci series you want to print");
-		count = sc.nextInt();
+		sc.nextInt();
 		
 		n1= 0;
 		n2=1;
@@ -22,11 +23,7 @@ public class Fabbonacci {
 			 n2=n3;
 			 
 			
-			
-			
-		}
-	
-
+			}
 	}
 
 }

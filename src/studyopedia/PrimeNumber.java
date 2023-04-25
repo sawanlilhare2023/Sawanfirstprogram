@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class PrimeNumber {
 
+	private static Scanner s;
+
 	public static void main(String[] args) {
-		Scanner s= new Scanner(System.in);
+		s = new Scanner(System.in);
 		System.out.println("Enter the number");
 		int no=s.nextInt(); 
 		int temp=0;
@@ -22,7 +24,6 @@ public class PrimeNumber {
 		else {
 			System.out.println(no+ "is not prime number");
 		}
-
-	}
+    }
 
 }
